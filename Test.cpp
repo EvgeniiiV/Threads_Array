@@ -81,4 +81,6 @@ int main()
 	cout << "With " << N << " threads the total = " << T << "\tTime elapsed : " << t2.elapsed() << '\n';//finish	
 
 	return 0;
-}//for quad-core processor and these conditions average ratio was 0,20/0,083 s
+}//for quad-core processor, M = 10000000 and 8 threads average ratio was 0,202/0,083 s
+//             -                             4 threads average ratio was 0,208/0,083 s
+//	       -			     2 threads average ratio was 0,193/0,106 s	
